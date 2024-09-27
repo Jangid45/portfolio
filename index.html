@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+
+    <div class="container">
+        <nav>
+            <img src = "images/logo.png" class="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                   
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer  </p>
+            <h1>Hi, i am</h1><span>Kevin</span><br> from Germany</h1>
+        </div>
+    </div>
+</div>
+<!----------------about-------------------------------->
+<div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about -col-1"></div>
+            <img src="images/background2.jpg" alt="Background Image">
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p> "With a background in design and a passion for technology, I craft intuitive and visually stunning digital products that make a lasting impact. As a UX/UI designer, I'm dedicated to delivering exceptional user experiences that drive business results and delight users."</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>2021 - current</span><br> UX/UI Design training at ET institute</li>
+                        <li><span>2019-2021</span><br>Team Lead at Starapp LLC</li>
+                        <li><span>2022</span><br>Building apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2016</span><br>Designing web-App interfaces</li>
+                        <li><span>2017</span><br>MBA from MIT</li>
+                        <li><span>2018</span><br>BBA from ISM Bangalore</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - current</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019 - 2021</span><br>Team lead at starApp LLC.</li>
+                        <li><span>2017 - 2019</span><br>UI/UX Design Execute at coin Digital Ltd.</li>
+                        <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------services------------>
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title"> My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>  As a seasoned UX/UI designer, I help businesses and organizations create user-centered designs that drive engagement, conversion, and revenue. </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web Design</h2>
+                <p>-Responsive web design for desktop, tablet, and mobile devices
+                    -Custom web design solutions for WordPress, Shopify, and other platforms
+                    -E-commerce web design for online stores and marketplaces
+                    -Web design for blogs, portfolios, and corporate websites
+                   - Web design for non-profit organizations and educational institutions</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>- Native mobile app design for iOS and Android
+                   - Cross-platform app design using React Native, Flutter, and Xamarin
+                    -Custom app design solutions for enterprise, startup, and consumer apps
+                    -App design for wearables, IoT devices, and emerging technologies
+                    -App design for fintech, healthtech, and other industry-specific apps>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------portfolio------------------>
+<div id="portfolio"></div>
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="Work 1 Image">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> "Connect with people from around the world and share your thoughts, ideas, and experiences on a platform that's designed to bring people together. Discover new communities, make friends, and stay updated on the latest trends and news."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="Work 2 Image">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>"Discover, stream, and download your favorite music on a platform that's designed to bring music lovers together. Create playlists, follow artists, and enjoy personalized recommendations that match your unique taste in music."
+
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="Work 3 Image">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>"Shop from the comfort of your own home and get access to a wide range of products from top brands and local sellers. Enjoy fast shipping, easy returns, and a seamless shopping experience that's designed to make your life easier."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------content------------>
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>contact@gmail.com.com</p>
+                <p>09876543</p>
+            </div class="Social-Icons">
+            <a href="url of social media"></a>
+            <a href="url of facebook media"></a>
+            <a href="url of instagram media"></a>
+            <a href="url of linkdin media"></a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+            <div class="contact-right"></div>
+            <form>
+                <span id="msg"></span>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright @ kelvin.made With easy Tutorials</p>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    const msg = document.getElementById("msg")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function openmenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
